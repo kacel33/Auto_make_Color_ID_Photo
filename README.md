@@ -10,3 +10,13 @@
   
 - Given the growing popularity of '시현하다', 'How can I make a background color that matches the character?' With that in mind, I started this project.  
 - If you use the model in this repository, it automatically extracts a person, finds a background color that matches the person, and synthesizes it with the background color.  
+
+## Train
+```
+python train.py --batch_size 8 
+```
+## Demo  
+
+```
+python inference.py --IMG_PATH {IMG_PATH} --SAVE_PATH {SAVE_PATH}
+```
